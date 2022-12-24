@@ -15,13 +15,20 @@ nav {
 }
 
 .titulo-principal {
-    padding-left: 30px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
 }
 
-.principal{
-    background-color: #CCCCCC;
+main.index{
+    background: #CCCCCC;
+}
+
+.principal, .principal p{
     padding: 20px;
     text-align: center;
+    margin: 10px;
+    font-size: 18px;
 }
 
 em strong{
@@ -29,16 +36,16 @@ em strong{
 }
 
 #mision {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .diferenciales{
-    background-color: #ffffff;
     padding: 30px;
 }
 
 .items {
     font-style: italic;
+    margin-top: 25px;
 }
 
 #lista-diferenciales{
@@ -138,6 +145,8 @@ nav a:hover{
     margin-top: 10px;
 }
 
+
+/* FOOTER */
 footer{
     text-align: center;
     background-image: url(/Images/bg.jpg);
@@ -148,4 +157,83 @@ footer{
     color: #ffffff;
     font-size: 13px;
     margin: 20px;
+}
+
+main.contacto{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form.contacto{
+    margin: 40px 0;
+}
+
+.contacto label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+
+.contacto legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+    padding-top: 30px;
+
+}
+
+.input-padron, textarea{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+}
+
+select{
+    padding: 5px;
+    margin: 0 0 20px 70px;
+
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: darkorange;
+    transform: scale(1.15);
+
+}
+
+table{
+    margin: 40px;
+}
+
+thead{
+    background: #555555;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+
 }
